@@ -52,8 +52,18 @@ Store-Billing-System/
 
 
 # Database Tables
-items – stores item name, price, and quantity/n
-cart – stores cart items and quantities
-customers – stores customer name and mobile number
-sales – stores customer purchase and sales information
-bills – stores generated bills as BLOB data
+**items:**
+Stores item name, price, and quantity.
+
+**cart:**
+Stores cart items and quantities.
+
+**customers:**
+Stores customer name and mobile number.
+
+**sales:**
+Stores customer purchase and sales information.
+
+**bills:**
+Stores generated bills as BLOB data.
+

@@ -12,32 +12,34 @@ Admin and Customer panels, Add, view, search, restock, and remove store items, C
 **Core Concepts**: Classes & Objects, Encapsulation, Abstraction, Inheritance, Methods, Loops, Conditional Statements, Exception Handling, Collections, SQL, CRUD Operations
 
 # Project Structure
-**Store-Billing-System/**
-
-→ **src/**
-    → **Main_Package/**
-        → Main.java
-
-    → **Item_Package/**
-        → Item.java
-
-    → **BST_Package/**
-        → ItemBST.java
-
-    → **Connection_Package/**
-        → DBConnection.java
-
-    → **Service_Package/**
-        → BaseService.java
-        → ItemService.java
-        → CartService.java
-        → BillingService.java
-        → Customer_Service.java
-
-→ **mysql-connector-j-8.1.0.jar**
-→ **README.md**
-→ **LICENSE**
-→ **.gitignore**
+<pre>
+Store-Billing-System/
+│
+├── src/
+│   ├── Main_Package/
+│   │   └── Main.java
+│   │
+│   ├── Item_Package/
+│   │   └── Item.java
+│   │
+│   ├── BST_Package/
+│   │   └── ItemBST.java
+│   │
+│   ├── Connection_Package/
+│   │   └── DBConnection.java
+│   │
+│   └── Service_Package/
+│       ├── BaseService.java
+│       ├── ItemService.java
+│       ├── CartService.java
+│       ├── BillingService.java
+│       └── Customer_Service.java
+│
+├── mysql-connector-j-8.1.0.jar
+├── README.md
+├── LICENSE
+└── .gitignore
+</pre>
 
 
 # Database Tables
